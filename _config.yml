@@ -1,0 +1,12 @@
+color:
+  primary: 413659
+  secondary: 656F8C
+  secondary-dark: 211426
+  tertiary: FF9800
+
+sections: [education, experience, skills, projects, contact]
+
+exclude: [vendor, cv]
+
+markdown: kramdown
+permalink: pretty

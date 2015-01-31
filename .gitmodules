@@ -1,0 +1,9 @@
+[submodule "cv"]
+	path = cv
+	url = https://github.com/jorgebg/jorgebg.github.io
+[submodule "_data/cv"]
+	path = _data/cv
+	url = git@github.com:jorgebg/cv.git
+[submodule "_data"]
+	path = _data
+	url = git@github.com:jorgebg/cv.git
