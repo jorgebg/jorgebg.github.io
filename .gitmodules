@@ -1,6 +1,6 @@
 [submodule "cv"]
 	path = cv
-	url = https://github.com/jorgebg/jorgebg.github.io
+	url = https://github.com/jorgebg/cv
 [submodule "_data/cv"]
 	path = _data/cv
 	url = git@github.com:jorgebg/cv.git
