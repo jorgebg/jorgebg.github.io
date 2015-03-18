@@ -10,3 +10,6 @@ exclude: [vendor, cv]
 
 markdown: kramdown
 permalink: pretty
+
+gems:
+  - jekyll-redirect-from
