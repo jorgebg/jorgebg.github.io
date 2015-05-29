@@ -7,17 +7,19 @@
     <body id="page-top" class="index">
 
     {% include header.html %}
-    
+
     {% for section in site.sections %}
-    <section id="{{ section }}">
+    {% assign id = section[0] %}
+    {% assign label = section[1] %}
+    <section id="{{ id }}">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2>{{ section }}</h2>
+            <h2>{{ label }}</h2>
             <hr class="star">
           </div>
         </div>
-        {% include sections/{{ section }}.html %}
+        {% include sections/{{ id }}.html %}
       </div>
     </section>
     {% endfor %}

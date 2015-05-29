@@ -4,11 +4,20 @@ color:
   secondary-dark: 211426
   tertiary: FF9800
 
-sections: [education, experience, skills, projects, contact]
+author:
+  mail:     contact@jorgebg.com
+  github:   github.com/jorgebg
+  linkedin: lnkdin.me/p/baratajorge
+  stackoverflow: stackoverflow.com/u/959819
 
-exclude: [vendor, cv]
+sections:
+  resume: Resume
+  open-source: Open Source
+  contact: Contact
 
-markdown: kramdown
+
+exclude: [vendor ]
+
 permalink: pretty
 
 gems:
