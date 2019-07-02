@@ -1,0 +1,36 @@
+header svg {
+  width: 100px;
+  @media (min-width: 30rem) {
+    width: 200px;
+  }
+  margin: 20px auto 20px auto;
+
+  > g:nth-child(1) > path {
+    animation: colorchange-1 30s cubic-bezier(1,0,0,1) infinite;
+  }
+  > g:nth-child(2) > path {
+    animation: colorchange-2 30s cubic-bezier(1,0,0,1) infinite;
+  }
+}
+
+$colors: #a9dc76, #ffd866, #fc9867, #ff6188, #ab9df2, #78dce8;
+$ncolors: length($colors);  // It must be even
+$frame: (100% / ($ncolors - 1));
+
+@keyframes colorchange-1
+{
+  @for $i from 1 through $ncolors {
+    #{($i - 1) * $frame} {
+      fill: nth($colors, $i);
+    }
+  }
+}
+
+@keyframes colorchange-2
+{
+  @for $i from 1 through $ncolors {
+    #{($i - 1) * $frame} {
+      fill: nth($colors, 1 + ($i + - 1 + $ncolors/2) % $ncolors);
+    }
+  }
+}

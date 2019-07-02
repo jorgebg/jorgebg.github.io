@@ -1,24 +1,3 @@
-color:
-  primary: 413659
-  secondary: 656F8C
-  secondary-dark: 211426
-  tertiary: FF9800
-
-author:
-  mail:     contact@jorgebg.com
-  github:   github.com/jorgebg
-  linkedin: lnkdin.me/p/baratajorge
-  stackoverflow: stackoverflow.com/u/959819
-
-sections:
-  resume: Resume
-  foss: Free and Open Source Software
-  contact: Contact
-
-
-exclude: [vendor ]
-
-permalink: pretty
-
-gems:
-  - jekyll-redirect-from
+exclude: ["README.md"]
+sass:
+  style: compressed
