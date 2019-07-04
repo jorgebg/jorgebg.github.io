@@ -8,7 +8,7 @@ social:
   Twitter: https://twitter.com/neuralhacker
   GitHub: https://github.com/jorgebg
   LinkedIn: https://github.com/jorgebg
-  Mail: contact@jorgebg.com
+  Mail: mailto:contact@jorgebg.com
 ---
 
 I like building software in Python and JavaScript, training AI models, and orchestrating GNU/Linux servers.
