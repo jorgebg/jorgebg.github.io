@@ -26,7 +26,7 @@ Please check my [Curriculum Vitae](http://jorgebg.com/cv) for more details.
 
 
 ## Interests
-- [Learning by teaching](https://github.com/jorgebg/talks).
-- [Solving problems](https://github.com/jorgebg/hackathons).
-- [Science](http://jorgebg.com/reader).
+- [Talks](http://jorgebg.com/talks/).
+- [Hackathons](https://github.com/jorgebg/hackathons).
+- [Projects](https://github.com/jorgebg?tab=repositories).
 - [Critical thinking](https://falaciaslogicas.com).
