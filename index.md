@@ -15,7 +15,7 @@ I like teaching software engineering, building software, training AI models, and
 
 ## What I do
 
-- I train software engineers. [Reach me out](mailto:contact@jorgebg.com).
+- I train software engineers. Interested? [Reach me out](mailto:contact@jorgebg.com).
 - Former engineer at [Eventbrite](https://www.eventbrite.com) and [Udemy](https://www.udemy.com).
 - I develop social and environmental projects at [Los Mochuelos](https://mochuelos.org).
 - Founder of the Django <abbr title="User Groups">UGs</abbr> of [Dublin](https://web.archive.org/web/20170825184914/https://www.meetup.com/django-dublin/) and [Madrid](hhttps://web.archive.org/web/20190911044704/https://www.meetup.com/MadridDjango/).
