@@ -19,7 +19,8 @@ a {
   text-decoration: none;
 }
 
-a:hover, a:focus {
+a:hover,
+a:focus {
   text-decoration: underline;
 }
 
@@ -27,7 +28,8 @@ p {
   text-align: justify;
 }
 
-header, footer {
+header,
+footer {
   text-align: center;
   margin-bottom: 1rem;
 }
@@ -36,7 +38,12 @@ footer {
   font-size: 0.8rem;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0 0 0.5rem -0.1rem /* align left edge */;
   line-height: 1;
   color: #111;
@@ -58,18 +65,28 @@ h2 {
   margin-bottom: 0.75rem;
 }
 
-h3, h4, h5, h6 {
+h3,
+h4,
+h5,
+h6 {
   margin-top: 1.5rem;
   font-size: 1rem;
   text-transform: uppercase;
 }
 
-p, ul, ol, dl, table, pre, blockquote {
+p,
+ul,
+ol,
+dl,
+table,
+pre,
+blockquote {
   margin-top: 0;
   margin-bottom: 1rem;
 }
 
-ul, ol {
+ul,
+ol {
   padding-left: 1.5rem;
 }
 
@@ -80,8 +97,8 @@ dd {
 blockquote {
   margin-left: 0;
   margin-right: 0;
-  padding: .5rem 1rem;
-  border-left: .25rem solid #ccc;
+  padding: 0.5rem 1rem;
+  border-left: 0.25rem solid #ccc;
   color: #666;
 }
 
@@ -97,7 +114,8 @@ hr {
   top: -1px;
 }
 
-.container img, .container iframe {
+.container img,
+.container iframe {
   max-width: 100%;
 }
 
@@ -110,4 +128,8 @@ hr {
   max-width: 30rem;
   margin: 0 auto;
   padding: 0 1rem;
+}
+
+nav {
+  color: #ccc;
 }
