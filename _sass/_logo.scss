@@ -7,9 +7,11 @@ header svg {
 
   > g:nth-child(1) > path {
     animation: colorchange-1 30s cubic-bezier(1,0,0,1) infinite;
+    filter: none !important;
   }
   > g:nth-child(2) > path {
     animation: colorchange-2 30s cubic-bezier(1,0,0,1) infinite;
+    filter: none !important;
   }
 }
 
