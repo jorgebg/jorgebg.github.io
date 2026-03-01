@@ -7,7 +7,7 @@ keywords: Training, Python, TypeScript, Django, React, Svelte, Numpy, Sci-kit, G
 social:
   Twitter: https://twitter.com/neuralhacker
   GitHub: https://github.com/jorgebg
-  LinkedIn: http://linkedin.com/in/baratajorge
+  LinkedIn: https://linkedin.com/in/baratajorge
   Mail: mailto:contact@jorgebg.com
 ---
 
