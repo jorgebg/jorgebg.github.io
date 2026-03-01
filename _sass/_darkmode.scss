@@ -1,0 +1,11 @@
+@media (prefers-color-scheme: dark) {
+  html,
+  img,
+  video,
+  iframe {
+    filter: invert(1);
+  }
+  body {
+    background-color: white;
+  }
+}
